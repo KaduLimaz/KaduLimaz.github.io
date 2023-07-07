@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    
+  }
+
+.container {
+  display: flex;
+  
+}
+
+a {
+  text-decoration: none;
+}
+.bloco1 {
+  width: 15%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(193, 99, 12, 0.9);
+  
+}
+
+
+.bloco2 {
+  width: 100%;
+  background-color: #fff;
+  padding: 200px 40px;
+  
+}
+
+.foto img {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%; 
+  margin-bottom: 20px;    
+  box-shadow: 0 0 0 2px white;
+
+}
+
+
+.links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;  
+  position: relative;
+  
+  
+}
+.links li {
+  margin-bottom: 5px;
+}
+
+
+.bloco2 h2 {
+  margin-top: 0;
+}
+.redes-sociais {
+  display: flex;
+  align-items: center;
+  
+}
+.redes-sociais a {
+  margin-right: 20px;
+}
+
+.btn {
+      
+  font-family: Bebas Neue;
+  font-weight: 400px;
+  font-size: 16px;
+  color:rgb(255, 255, 253);
+  background-color: #d18914;
+  padding: 5px 16px;
+  border: solid #ccc8b5 2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 8px;
+  transition : 603ms;  
+  display: flex;   
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+ 
+  }
+  
+  .btn:hover{
+  
+  transition : 603ms;
+  padding: 10px 40px; 
+  
+  
+  }
+  
+  .Nome1 {
+
+    font-family: Bebas Neue;
+    font-size: 65px;
+    margin-bottom: 0;
+    
+  }
+
+  .dadospessoais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1px;
+    margin: 0px;
+    }
+
+  .subend {
+    font-family: Bebas Neue;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+
+  .descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5; 
+  }
+
+  span {
+    color: #d18914;
+  }
+
+  .linkedin {
+    width: 48px;
+  }
+
+  .insta {
+    width: 56px;
+    
+  }
+
+  /* CONHECIMENTOS */
+
+  .lista {
+    font-family: Bebas Neue;
+    font-size: 30px;
+    list-style-type: upper-alpha;
+    padding-left: 20px;
+  }
+  
+  /* Objetivos */
+  
+ .objetivos {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; 
+  padding-left: 20px;
+  margin-bottom: 20px;
+  
+  
+ }
+
+ .bloco2Objetivo {
+  width: 100%;
+  background-color: #fff;
+  padding: 200px 40px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
