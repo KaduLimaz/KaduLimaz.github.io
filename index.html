@@ -3,65 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
+
     <title>Sobre</title>
   </head>
   <body>
-    <main class="container">
-      <aside class="bloco1">
-        <div class="foto">
-          <img src="/imagens/perfil.png" alt="Perfil" />
+    <main class="container-fluid">
+      <div class="row g-3 text-center mt-0 vh-100">
+        <div class="col-sm-2 bg-warning border border-black h-75 ">
+          <div class="img-fluid foto mt-2 ">
+            <img src="/imagens/perfil.png" alt="Perfil" class="rounded-circle img-fluid"/>
+          </div>
+          <div class="d-grid gap-1 justify-content-center mt-5 ">
+            <a href="/index.html" class=" btn btn-outline-primary ">Sobre</a>
+          <br />
+          
+            <a href="/conhecimentos.html" class="btn btn-outline-primary ">Conhecimentos</a>
+          
+          <br />
+          
+            <a href="/objetivos.html" class="btn btn-outline-primary ">Objetivo</a>
+          </div>
+          
+          
         </div>
+        <div class="col-sm-9 bg-warning border border-black h-75">
+          <div class="text-start">
+            <h1 class="Nome1">Carlos Eduardo <span>Sabino de Lima</span></h1>
+            <address class="subend">
+              Rua Porto Nacional, 159. Uruaçu - GO
+              <a href="mailto:kadulima95@hotmail.com">
+                <span>kadulima95@hotmail.com</span></a
+              >
+              (62)98627-0190
+            </address>
+          </div>
+          <p class="descricao">
+            Um entusiasta da tecnologia e apaixonado por programação. Atualmente
+            estou na 16ª Turma do Programa Starter Full Stack da Growdev e
+            cursando Análise e Desenvolvimento de Sistemas. Estou sempre em busca
+            de oportunidades para aplicar meus conhecimentos e colaborar em
+            projetos interessantes. Se você está procurando um profissional
+            dedicado, criativo e apaixonado pela tecnologia, fique à vontade para
+            entrar em contato. Vamos trabalhar juntos para construir soluções
+            inovadoras e impactantes.
+          </p>
+          <div class="text-start">
+            <a href="https://www.linkedin.com/in/kadulima01/" target="_blank"
+              ><img src="/imagens/linkedin.png" alt="Linkedin" class="linkedin"
+            /></a>
+            <a href="https://github.com/KaduLimaz" target="_blank"
+              ><img src="/imagens/github_icon.png" alt="github"
+            /></a>
+            <a href="https://www.facebook.com/EduuardoLima2/" target="_blank"
+              ><img src="/imagens/facebook logo_icon.png" alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com/kadulima1/" target="_blank"
+              ><img
+                src="/imagens/instagram_icon.png"
+                alt="instagram"
+                class="insta"
+            /></a>
+          </div>
+        </div>
+      </div>
 
-        <div class="links"><a href="/index.html" class="btn">Sobre</a></div>
-        <br />
-        <div class="links">
-          <a href="/conhecimentos.html" class="btn">Conhecimentos</a>
-        </div>
-        <br />
-        <div class="links">
-          <a href="/objetivos.html" class="btn">Objetivo</a>
-        </div>
-      </aside>
-
-      <div class="bloco2">
-        <div class="dadospessoais">
-          <h1 class="Nome1">Carlos Eduardo <span>Sabino de Lima</span></h1>
-          <address class="subend">
-            Rua Porto Nacional, 159. Uruaçu - GO
-            <a href="mailto:kadulima95@hotmail.com">
-              <span>kadulima95@hotmail.com</span></a
-            >
-            (62)98627-0190
-          </address>
-        </div>
-        <p class="descricao">
-          Um entusiasta da tecnologia e apaixonado por programação. Atualmente
-          estou na 16ª Turma do Programa Starter Full Stack da Growdev e
-          cursando Análise e Desenvolvimento de Sistemas. Estou sempre em busca
-          de oportunidades para aplicar meus conhecimentos e colaborar em
-          projetos interessantes. Se você está procurando um profissional
-          dedicado, criativo e apaixonado pela tecnologia, fique à vontade para
-          entrar em contato. Vamos trabalhar juntos para construir soluções
-          inovadoras e impactantes.
-        </p>
-        <div class="redes-sociais">
-          <a href="https://www.linkedin.com/in/kadulima01/" target="_blank"
-            ><img src="/imagens/linkedin.png" alt="Linkedin" class="linkedin"
-          /></a>
-          <a href="https://github.com/KaduLimaz" target="_blank"
-            ><img src="/imagens/github_icon.png" alt="github"
-          /></a>
-          <a href="https://www.facebook.com/EduuardoLima2/" target="_blank"
-            ><img src="/imagens/facebook logo_icon.png" alt="facebook"
-          /></a>
-          <a href="https://www.instagram.com/kadulima1/" target="_blank"
-            ><img
-              src="/imagens/instagram_icon.png"
-              alt="instagram"
-              class="insta"
-          /></a>
-        </div>
+      
+        
       </div>
     </main>
   </body>
